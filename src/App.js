@@ -10,6 +10,7 @@ import Footer from './components/footer/footer';
 import Contact from './components/contact/contact';
 import Projects from './components/projects/projects';
 
+//define App class
 class App extends Component {
   render() {
     return (

@@ -92,6 +92,11 @@ header .title {
    color: #fff;
 }
 
+.intro-text {
+    position: relative;
+    z-index: 1;
+}
+
 
 
 
@@ -468,7 +473,12 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
+#portfolio-wrapper {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center
+} 
+.columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #212121;
    overflow: hidden;
@@ -831,7 +841,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: linear-gradient(180deg, #1e1e1e 0%, #0f0f0f 100%);
+   background: linear-gradient(180deg, #1e1e1e 0%, #2d2d2d 100%);
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
@@ -878,12 +888,17 @@ call-to-action .button {
    color:#11ABB0;
 }
 #contact p.lead {
-   font: 15px 'opensans-regular', sans-serif
+   font: 15px 'opensans-regular', sans-serif;
 }
 #contact p.email {
    font: 15px 'opensans-regular', sans-serif
 }
 #contact .header-col { padding-top: 6px; }
+
+.contact-header {
+    color:white;
+    margin-bottom: 20px;
+}
 
 
 /* contact form */
@@ -916,17 +931,17 @@ call-to-action .button {
 	background-color: #11ABB0;
 }
 #contact button.submit {
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color:#fff;
-   background: #0D0D0D;
-	border: none;
-   cursor: pointer;
-   height: auto;
-   display: inline-block;
-	border-radius: 3px;
-   margin-left: 26%;
-   width:65%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:#fff;
+    background: #3e3e3e;
+    border: none;
+    cursor: pointer;
+    height: auto;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 26%;
+    width:65%;
 }
 #contact button.submit:hover {
 	color: #0D0D0D;
@@ -983,9 +998,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 footer {
+   background-color: #2d2d2c;
    padding-top: 48px;
-   margin-bottom: 48px;
-   color: #303030;
+   padding-bottom: 20px;
+   color: #828d8e;
    font-size: 14px;
    text-align: center;
    position: relative;

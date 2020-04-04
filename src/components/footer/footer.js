@@ -15,7 +15,7 @@ export default class Footer extends Component {
               <li><a href="https://twitter.com/its_just_george?lang=en-gb" target="_blank"><i className="fa fa-twitter" /></a></li>
             </ul>
             <ul className="copyright">
-              <li>© Copyright 2019 - George Marriott Web Design</li>  
+              <li>© Copyright 2020 - George Marriott | Web Design</li>  
             </ul>
           </div>
           <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>

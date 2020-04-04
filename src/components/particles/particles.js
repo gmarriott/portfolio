@@ -9,8 +9,7 @@ export default () => (
       left: 0,
       width: "100%",
 	  height: "100%",
-      background: "linear-gradient(to bottom, #0e0e0e 0%, #3c3c3c 100%)",
-      zIndex: "-1"
+      background: "linear-gradient(#8b9798 0%, rgb(60, 60, 60) 100%)"
     }}
   >
     <Particles

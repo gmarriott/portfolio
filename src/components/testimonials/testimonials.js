@@ -16,6 +16,13 @@ export default class Testimonials extends Component {
             <div className="ten columns flex-container">
               <div className="flexslider">
                 <ul className="slides">
+                <li>
+                    <blockquote>
+                      <p>Thanks so much for all your hard work on Arc. You've been there from the beginning always offering a different point of view and solving the problem at hand.
+                      </p>
+                      <cite>Ian Alexander - Twinkl - Arc Product Owner</cite>
+                    </blockquote>
+                  </li>
                   <li>
                     <blockquote>
                       <p>George is extremely passionate about the work he does and throughout

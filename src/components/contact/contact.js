@@ -9,11 +9,10 @@ export default class Contact extends Component {
 
       <section id="contact">
         <div className="ContactContainer">
-        <p className="lead">Contact Me</p>
-          <MdMailOutline style={{fontSize: "20px"}}/>
+            <h5 className="contact-header">Contact Me</h5>
         </div>
         <div className="row">
-          <div className="ten columns">
+          <div className="twelve columns">
             {/* form */}
             <form action="https://formspree.io/marriottg94@hotmail.co.uk" method="POST">
               <fieldset>
@@ -34,7 +33,7 @@ export default class Contact extends Component {
                   <textarea cols={40} rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
                 </div>
                 <div>
-                  <button className="submit">Submit</button>
+                  <button className="submit">Submit <MdMailOutline style={{fontSize: "12px"}}/></button>
                   <span id="image-loader">
                     <img alt src="images/loader.gif" />
                   </span>

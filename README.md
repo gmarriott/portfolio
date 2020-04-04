@@ -27,6 +27,12 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run deploy`
+
+Deployment of the app can be initialised using the command specified in the package.json
+
+A useful guide on deploying to github pages can be found here [Deploy - GH Pages](https://github.com/gitname/react-gh-pages)
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**

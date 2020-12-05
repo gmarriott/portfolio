@@ -15,11 +15,11 @@ export default class Projects extends Component {
             <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-01" title>
-                    <img alt="arc" src="images/Arc-default.jpg" />
+                    <img alt="arc" style={{height:"315px"}} src="images/tutorful-landing-page.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Arc</h5>
-                        <p>Production System</p>
+                        <h5>Tutorful - Landing Experience</h5>
+                        <p>Software Development</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -27,13 +27,10 @@ export default class Projects extends Component {
               </div>
               
               <div id="modal-01" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/Arc-default.jpg" style={{width:"100%"}} alt="arc" />
+            <img className="scale-with-grid" src="images/tutorful-landing-page.png" style={{width:"100%"}} alt="arc" />
             <div className="description-box">
-              <h4>Arc</h4>
-              <p>While working at Twinkl, I was part of a small team in charge of optimising the production system.
-                 This has lead to the creation of Arc, standing for Agile Resource Creation.
-                  Arc was built from the ground up using React, Redux, MongoDB and PHP. Because of the sensitive nature of this
-                  application as an internal system, no images can be provided.</p>
+              <h4>Tutorful Landing Experience</h4>
+              <p>While working at Tutorful, I was part of a small team tasked with optimising the landing page for the potential students to the platform. This involved rebuilding the existing landing page using Vue and Typescript to make the experience as smooth as possible. We also used Lighthouse whilst we rebuilt the page to ensure that we had optimised performance, accessibility and user experience stats for modern day browsers. Check out the landing page experience at: <a href="https://tutorful.co.uk/search/maths" target="_blank">Tutorful - Landing Page</a> </p>
               <span className="categories"><i className="fa fa-tag" />Software Development</span>
             </div>
             <div className="link-box">

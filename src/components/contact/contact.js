@@ -14,7 +14,7 @@ export default class Contact extends Component {
         <div className="row">
           <div className="twelve columns">
             {/* form */}
-            <form action="https://formspree.io/marriottg94@hotmail.co.uk" method="POST">
+            <form action="https://formspree.io/f/xknpqwww" method="POST">
               <fieldset>
                 <div>
                   <label htmlFor="contactName">Name <span className="required">*</span></label>

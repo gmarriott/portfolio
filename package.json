@@ -4,7 +4,7 @@
   "homepage": "https://gmarriott.github.io/portfolio",
   "private": true,
   "dependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-icons": "^3.5.0",

@@ -70,7 +70,7 @@ header .banner-text h3 {
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
-   
+
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -159,7 +159,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #093039; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -469,7 +469,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #fff;
 }
 
 /* Portfolio Content */
@@ -477,7 +477,7 @@ ul#nav li.current a { color: #F06000; }
     display: flex;
     flex-flow: wrap;
     justify-content: center
-} 
+}
 .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #212121;
@@ -683,7 +683,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -707,7 +707,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -878,7 +878,7 @@ call-to-action .button {
 .ContactContainer{
    color:#ebeeee;
    display:flex;
-   justify-content:center; 
+   justify-content:center;
 }
 .MailIcon{
    cursor: pointer;
@@ -916,7 +916,7 @@ call-to-action .button {
 #contact select {
    padding: 18px 20px;
 	color: #eee;
-	background: #373233;
+	background: #f3efe4;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
@@ -998,7 +998,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 footer {
-   background-color: #2d2d2c;
+   background-color: #f3efe4;
    padding-top: 48px;
    padding-bottom: 20px;
    color: #828d8e;

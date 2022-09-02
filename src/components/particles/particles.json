@@ -1,0 +1,42 @@
+{
+    "background": {
+      "color": {
+        "value": "#0a3d48"
+      }
+    },
+    "particles": {
+      "links": {
+        "color": "#fff",
+        "distance": 30,
+        "enable": true,
+        "opacity": 1,
+        "width": 1
+      },
+      "move": {
+        "direction": "none",
+        "enable": true,
+        "outMode": "bounce",
+        "random": false,
+        "speed": 2,
+        "straight": false
+      },
+      "number": {
+        "density": {
+          "enable": true,
+          "value_area": 500
+        },
+        "value": 15
+      },
+      "opacity": {
+        "value": 0.5
+      },
+      "shape": {
+        "type": "circle"
+      },
+      "size": {
+        "random": true,
+        "value": 3
+      }
+    },
+    "detectRetina": true
+  }

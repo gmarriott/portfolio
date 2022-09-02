@@ -1,18 +1,16 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Header from './components/header/header';
-import Particles from './components/particles/particles';
 import About from './components/about/about';
 import Nav from './components/nav/nav';
 import Testimonials from './components/testimonials/testimonials';
 import Footer from './components/footer/footer';
 import Contact from './components/contact/contact';
 import Projects from './components/projects/projects';
+import ParticlesLayout from './components/particles/particles';
 
 //define App class
-class App extends Component {
-  render() {
+function App() {
     return (
       <div
         style={{
@@ -24,7 +22,7 @@ class App extends Component {
         }}
       >
       <Nav/>
-        <Particles />
+        <ParticlesLayout/>
         <Header/>
         <About/>
         <Testimonials/>
@@ -33,7 +31,6 @@ class App extends Component {
         <Footer/>
         </div>
     );
-  }
 }
 
 export default App;

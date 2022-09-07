@@ -4,13 +4,48 @@
         "value": "#0a3d48"
       }
     },
+    "fpsLimit": 120,
+    "interactivity": {
+      "events": {
+        "onClick": {
+          "enable": true,
+          "mode": "push"
+        },
+        "onHover": {
+          "enable": true,
+          "mode": "repulse"
+        },
+        "resize": true
+      },
+      "modes": {
+        "bubble": {
+          "distance": 400,
+          "duration": 2,
+          "opacity": 0.8,
+          "size": 40
+        },
+        "push": {
+          "quantity": 2
+        },
+        "repulse": {
+          "distance": 200,
+          "duration": 0.4
+        }
+      }
+    },
     "particles": {
+      "color": {
+        "value": "#ffffff"
+      },
       "links": {
-        "color": "#fff",
-        "distance": 30,
+        "color": "#ffffff",
+        "distance": 150,
         "enable": true,
-        "opacity": 1,
+        "opacity": 0.5,
         "width": 1
+      },
+      "collisions": {
+        "enable": true
       },
       "move": {
         "direction": "none",
@@ -23,9 +58,9 @@
       "number": {
         "density": {
           "enable": true,
-          "value_area": 500
+          "value_area": 800
         },
-        "value": 15
+        "value": 30
       },
       "opacity": {
         "value": 0.5
@@ -35,7 +70,7 @@
       },
       "size": {
         "random": true,
-        "value": 3
+        "value": 1
       }
     },
     "detectRetina": true

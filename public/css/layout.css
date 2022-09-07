@@ -259,17 +259,20 @@ ul#nav li.current a { color: #F06000; }
    display: flex;
    flex-flow: wrap;
    justify-content: space-between;
+   background-color: #093039;
+   border-radius: 10px;
+   padding: 24px;
 }
 
 #about .skill{
-   transition: transform .2s; /* Animation */
+  transition: transform .2s; /* Animation */
   max-width: 120px;
   margin: 0 auto;
   padding: 10px 20px;
 }
 
 #about .skill:hover{
-   cursor: context-menu;
+   cursor: pointer;
    transform: scale(1.5);
 }
 
@@ -1007,7 +1010,7 @@ footer {
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #fff; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
@@ -1045,7 +1048,6 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
@@ -1064,7 +1066,7 @@ footer .social-links li a:hover { color: #11ABB0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
+	background-color: #fff;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -1072,7 +1074,7 @@ footer .social-links li a:hover { color: #11ABB0; }
    -ms-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
 
-   color: #fff;
+   color: #525252;
    font-size: 21px;
    line-height: 60px;
  	border-radius: 100%;

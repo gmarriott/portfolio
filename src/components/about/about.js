@@ -4,7 +4,7 @@ class About extends Component {
 
     render(){
         return (
-    
+
           <section id="about">
             <div className="row">
               <div className="twelve columns main-col">
@@ -25,15 +25,15 @@ class About extends Component {
                     <img className="skill" src="images/sass-original.svg" alt />
                     <img className="skill" src="images/sourcetree-original-wordmark.svg" alt />
                 </div>
-       
+
                   <div className="columns download">
                     <p style={{color:"white"}}>
-                      <a href="images/gmarriottCV.pdf" target="_blank" className="button"><i className="fa fa-download" />Download CV</a>
+                      <a href="images/George-CV.pdf" target="_blank" className="button"><i className="fa fa-download" />Download CV</a>
                     </p>
                   </div>
-              </div> 
+              </div>
             </div>
-          </section> 
+          </section>
         );
       }
 }

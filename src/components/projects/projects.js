@@ -6,7 +6,7 @@ export default class Projects extends Component {
   render() {
     return (
       <React.Fragment>
-      
+
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
@@ -25,13 +25,40 @@ export default class Projects extends Component {
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
               </div>
-              
+
               <div id="modal-01" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/tutorful-landing-page.png" style={{width:"100%"}} alt="arc" />
             <div className="description-box">
               <h4>Tutorful Landing Experience</h4>
               <p>While working at Tutorful, I was part of a small team tasked with optimising the landing page for the potential students to the platform. This involved rebuilding the existing landing page using Vue and Typescript to make the experience as smooth as possible. We also used Lighthouse whilst we rebuilt the page to ensure that we had optimised performance, accessibility and user experience stats for modern day browsers. Check out the landing page experience at: <a href="https://tutorful.co.uk/search/maths" target="_blank">Tutorful - Landing Page</a> </p>
               <span className="categories"><i className="fa fa-tag" />Software Development</span>
+            </div>
+            <div className="link-box">
+              <a className="popup-modal-dismiss">Close</a>
+            </div>
+          </div>{/* modal-01 End */}
+              </div> {/* item end */}
+
+              <div className="columns portfolio-item">
+                <div className="item-wrap">
+                  <a href="#modal-04" title>
+                    <img alt="spacex-viewer" src="images/spacex-viewer.png" style={{height:"315px"}} />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>SpaceX Launch Viewer</h5>
+                        <p>React/Typescript API Project</p>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>
+                  </a>
+              </div>
+
+              <div id="modal-04" className="popup-modal mfp-hide">
+            <img className="scale-with-grid" src="images/spacex-viewer.png" style={{width:"100%"}} alt />
+            <div className="description-box">
+              <h4>SpaceX Launch Viewer</h4>
+              <p>I started the SpaceX launch viewer project to refine my knowledge of React and Typescript. Using the open source SpaceX API was enjoyable and I managed to develop a satisfying list of launches with filter and sort functionality. I have deployed the project to GitHub pages and you will be able to access it by using the following link: <a href="https://gmarriott.github.io/space-x-launch-viewer/" target="_blank">SpaceX Launch Viewer</a></p>
+              <span className="categories"><i className="fa fa-tag" />API Development</span>
             </div>
             <div className="link-box">
               <a className="popup-modal-dismiss">Close</a>
@@ -52,7 +79,7 @@ export default class Projects extends Component {
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
               </div>
-              
+
               <div id="modal-04" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/truck-run.png" style={{width:"100%"}} alt />
             <div className="description-box">
@@ -99,36 +126,6 @@ export default class Projects extends Component {
             </div>
             {/* item end */}
             {/* modal end of 2 */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-03" title>
-                    <img alt src="images/wip.png" style={{height:"315px"}} />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Projects In Development</h5>
-                        <p>Upcoming Projects</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-              </div>
-              
-              <div id="modal-03" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/wip.png" style={{width:"100%"}} alt />
-            <div className="description-box">
-              <h4>Projects In Development</h4>
-              <p>I'm currently working on two projects, both of which are being developed with technologies I have not previously worked with. One is a Laravel blog application which allows myself to post an image and description to the platform. The other is a Vue.js API service interacting with a Hearthstone API to serve game card details to the user. Both these projects can be previewed below.</p>
-              <p>What George Saw (Laravel - Blog) : <a href="https://what-george-saw.herokuapp.com/" target="_blank">What George Saw</a></p>
-              <p>Hearthstone Deck Viewer (Vue.js - API Service) : <a href="https://gmarriott.github.io/hearthstone-deck-viewer/" target="_blank">Hearthstone Deck Viewer</a></p>
-              <span className="categories"><i className="fa fa-tag" />Project Development</span>
-            </div>
-            <div className="link-box">
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>{/* modal-03 End */}
-              </div> {/* item end - 3 */}
-            
-
           </div>
           </div>
         </div>

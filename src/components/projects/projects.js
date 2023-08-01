@@ -41,7 +41,7 @@ export default class Projects extends Component {
 
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-04" title>
+                  <a href="#modal-02" title>
                     <img alt="spacex-viewer" src="images/spacex-viewer.png" style={{height:"315px"}} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -53,7 +53,7 @@ export default class Projects extends Component {
                   </a>
               </div>
 
-              <div id="modal-04" className="popup-modal mfp-hide">
+              <div id="modal-02" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/spacex-viewer.png" style={{width:"100%"}} alt />
             <div className="description-box">
               <h4>SpaceX Launch Viewer</h4>
@@ -68,7 +68,7 @@ export default class Projects extends Component {
 
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-04" title>
+                  <a href="#modal-03" title>
                     <img alt="truck-run" src="images/truck-run.png" style={{height:"315px"}} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -80,7 +80,7 @@ export default class Projects extends Component {
                   </a>
               </div>
 
-              <div id="modal-04" className="popup-modal mfp-hide">
+              <div id="modal-03" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/truck-run.png" style={{width:"100%"}} alt />
             <div className="description-box">
               <h4>Truck Run</h4>
@@ -96,7 +96,7 @@ export default class Projects extends Component {
 
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-02" title>
+                  <a href="#modal-04" title>
                     <img alt src="images/gmarriott-VR.PNG" style={{height:"315px"}} />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -108,7 +108,7 @@ export default class Projects extends Component {
                   </a>
               </div>
 
-            <div id="modal-02" className="popup-modal mfp-hide">
+            <div id="modal-04" className="popup-modal mfp-hide">
               <img className="scale-with-grid" src="images/gmarriott-VR.PNG" style={{width:"100%"}} alt />
                 <div className="description-box">
                   <h4>VR - Learning the basics</h4>

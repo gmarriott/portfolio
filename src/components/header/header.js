@@ -12,7 +12,7 @@ export default class Header extends Component {
         <h3 className="title"><Zoom cascade duration={4000}>George Marriott</Zoom></h3>
           <div className="banner-text">
             <h1 className="responsive-headline"><Fade cascade duration={2000}><img className="profile-img" src="images/george-marriott.jpg"></img></Fade></h1>
-            <h3 className="intro-text">I'm an enthusiastic Software Developer currently specialising in Vue and Laravel. I have a keen interest in UX design and backend web structure.</h3>
+            <h3 className="intro-text">I'm an enthusiastic software developer with a keen interest in UX design and backend application structure. I am constantly looking to learn in the ever evolving world of software.</h3>
             <ul className="social">
               <li><a href="https://www.linkedin.com/in/gmarriott94/" target="_blank"><i className="fa fa-linkedin" /></a></li>
               <li><a href="https://github.com/gmarriott" target="_blank"><i className="fa fa-github" /></a></li>

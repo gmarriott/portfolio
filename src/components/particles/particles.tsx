@@ -1,8 +1,7 @@
 import React, { useCallback } from "react";
-import Particles from "react-particles";
+import Particles from "react-tsparticles";
 import type { Engine } from "tsparticles-engine";
 import { loadFull } from "tsparticles";
-import logo from "./logo.svg";
 import particlesOptions from "./particles.json";
 import { ISourceOptions } from "tsparticles-engine";
 

@@ -28,7 +28,7 @@ class About extends Component {
 
                   <div className="columns download">
                     <p style={{color:"white"}}>
-                      <a href="images/George-CV-2023.pdf" target="_blank" className="button"><i className="fa fa-download" />Download CV</a>
+                      <a href="images/George-CV.pdf" target="_blank" className="button"><i className="fa fa-download" />Download CV</a>
                     </p>
                   </div>
               </div>

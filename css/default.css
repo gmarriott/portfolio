@@ -139,6 +139,7 @@ table {
 html {
    font-size: 62.5%;
    -webkit-font-smoothing: antialiased;
+   scroll-behavior: smooth;
 }
 
 body {
@@ -464,7 +465,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #11ABB0;
+   background: #073139;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
@@ -802,7 +803,25 @@ properly.
 	text-align: center !important;
 }
 
+.profile-title {
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.resume-button {
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.intro-block {
+    margin-top: 10rem;
+    margin-bottom: 10rem
+}
+
 .profile-img{
+    position: relative;
    width:200px;
    height:200px;
    border-radius: 130px;

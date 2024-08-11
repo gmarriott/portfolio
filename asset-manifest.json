@@ -1,13 +1,34 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f48a98bf.css",
-    "main.js": "/portfolio/static/js/main.c2f47551.js",
+    "main.css": "/portfolio/static/css/main.3244d8e7.css",
+    "main.js": "/portfolio/static/js/main.7bedafe8.js",
+    "static/media/spacex-viewer.png": "/portfolio/static/media/spacex-viewer.aa8ae8cd65790428dd2f.png",
+    "static/media/dev-demand-vr.png": "/portfolio/static/media/dev-demand-vr.6c891cd0422040595390.png",
+    "static/media/tutorful-landing-page.png": "/portfolio/static/media/tutorful-landing-page.4b179c2f8e6c83699b15.png",
+    "static/media/truck-run.png": "/portfolio/static/media/truck-run.dbe2c46fc074fe50d6a4.png",
+    "static/media/apache-original-wordmark.svg": "/portfolio/static/media/apache-original-wordmark.8628933cc5175b06c1800dedf0fea2d5.svg",
+    "static/media/george-marriott.jpg": "/portfolio/static/media/george-marriott.2f83cd2571d41bebb1dd.jpg",
+    "static/media/testimonials-bg.jpg": "/portfolio/static/media/testimonials-bg.93444758762b61c668ff.jpg",
+    "static/media/George-CV.pdf": "/portfolio/static/media/George-CV.7c35844dd3304d74cd6d.pdf",
+    "static/media/php-original.svg": "/portfolio/static/media/php-original.6dd1c35d14b8238b2caff6a516afb1a1.svg",
+    "static/media/mongodb-original-wordmark.svg": "/portfolio/static/media/mongodb-original-wordmark.c89dd81131d7946bfddd893c49074e1f.svg",
+    "static/media/wordpress-original.svg": "/portfolio/static/media/wordpress-original.f89b9a97962f95da5e5e30de43555bfc.svg",
+    "static/media/sass-original.svg": "/portfolio/static/media/sass-original.8ec1693844d3eb12c43fa282269f4cb0.svg",
+    "static/media/sourcetree-original-wordmark.svg": "/portfolio/static/media/sourcetree-original-wordmark.eb3965712f049f38e0884e50efce2e91.svg",
+    "static/media/mysql-original-wordmark.svg": "/portfolio/static/media/mysql-original-wordmark.4e6fc76860c30ade009df8b119c7eaa5.svg",
+    "static/media/react-original-wordmark.svg": "/portfolio/static/media/react-original-wordmark.9e9c78facb4ac0be2d2880a01982757a.svg",
+    "static/media/nodejs-original-wordmark.svg": "/portfolio/static/media/nodejs-original-wordmark.0f5c1eec64dcda5683fc45bfe4900f4a.svg",
+    "static/media/nextjs-icon.svg": "/portfolio/static/media/nextjs-icon.e3c042b9d9d809ebb67e9bc6e1e5f70d.svg",
     "index.html": "/portfolio/index.html",
-    "main.f48a98bf.css.map": "/portfolio/static/css/main.f48a98bf.css.map",
-    "main.c2f47551.js.map": "/portfolio/static/js/main.c2f47551.js.map"
+    "static/media/javascript-original.svg": "/portfolio/static/media/javascript-original.f719efab5b799ddc35b5055935a3cedd.svg",
+    "static/media/css3-original-wordmark.svg": "/portfolio/static/media/css3-original-wordmark.a79b97e79096bb163edb3f2ec6de4824.svg",
+    "static/media/html5-original-wordmark.svg": "/portfolio/static/media/html5-original-wordmark.d0addc05618b04fad8a920667bd781d7.svg",
+    "static/media/csharp-original.svg": "/portfolio/static/media/csharp-original.7ce1ad6dbeb45b1ea8ea000969430fc7.svg",
+    "main.3244d8e7.css.map": "/portfolio/static/css/main.3244d8e7.css.map",
+    "main.7bedafe8.js.map": "/portfolio/static/js/main.7bedafe8.js.map"
   },
   "entrypoints": [
-    "static/css/main.f48a98bf.css",
-    "static/js/main.c2f47551.js"
+    "static/css/main.3244d8e7.css",
+    "static/js/main.7bedafe8.js"
   ]
 }

@@ -18,7 +18,7 @@ export default class Footer extends Component {
               <li>© Copyright { JSON.stringify(year) } - George Marriott | Web Design</li>
             </ul>
           </div>
-          <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
+          <div id="go-top"><a title="Back to Top" href="#about"><i className="icon-up-open" /></a></div>
         </div>
       </footer> {/* Footer End*/}
       </React.Fragment>

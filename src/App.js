@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './components/header/header';
+import Intro from './components/intro/intro';
 import About from './components/about/about';
 import Nav from './components/nav/nav';
-import Testimonials from './components/testimonials/testimonials';
+import {Testimonials} from './components/testimonials/testimonials';
 import Footer from './components/footer/footer';
 import Contact from './components/contact/contact';
 import Projects from './components/projects/projects';
@@ -23,8 +23,8 @@ function App() {
       >
       <Nav/>
         <ParticlesLayout/>
-        <Header/>
         <About/>
+        <Intro />
         <Testimonials/>
         <Projects />
         <Contact />

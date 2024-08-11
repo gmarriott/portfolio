@@ -47,8 +47,8 @@ header:before {
    vertical-align: middle;
    height: 100%;
 }
-header .banner {
-   display: inline-block;
+.banner {
+    margin-top: 10rem;
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
@@ -56,15 +56,15 @@ header .banner {
    text-align: center;
 }
 
-header .banner-text { width: 100%; }
-header .banner-text h1 {
+.banner-text { width: 100%; }
+.banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
-header .banner-text h3 {
+.banner-text h3 {
    font: 20px 'opensans-regular', sans-serif;
    color: #fff;
    margin: 0 auto;
@@ -72,11 +72,11 @@ header .banner-text h3 {
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 
 }
-header .banner-text h3 span,
-header .banner-text h3 a {
+.banner-text h3 span,
+.banner-text h3 a {
    color: #fff;
 }
-header .banner-text hr {
+.banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
    border-color: #2F2D2E;
@@ -94,30 +94,39 @@ header .title {
 
 .intro-text {
     position: relative;
+    font:'librebaskerville-regular', serif;
     z-index: 1;
+    text-align: center;
+}
+
+.responsive-headline {
+    display: flex;
+    justify-content: center;
 }
 
 
 
 
 /* header social links */
-header .social {
+ .social {
    position: relative;
+   display: flex;
+   justify-content: center;
    margin: 24px 0;
    padding: 0;
    font-size: 30px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
-header .social li {
+ .social li {
    display: inline-block;
    margin: 0 15px;
    padding: 0;
 }
-header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+ .social li a { color: #fff; }
+ .social li a:hover { color: #11ABB0; }
 
 /* scrolldown link */
-header .scrolldown a {
+ .scrolldown a {
    position: absolute;
    bottom: 30px;
    left: 50%;
@@ -136,7 +145,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+.scrolldown a:hover { color: #11ABB0; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -166,6 +175,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 ul#nav {
    min-height: 48px;
+   position: relative;
    width: auto;
 
    /* center align the menu */
@@ -210,7 +220,7 @@ ul#nav li.current a { color: #F06000; }
 #about {
    background: linear-gradient(180deg, #3c3c3c 0%, #2d2d2d 100%);
    padding-top: 96px;
-   padding-bottom: 66px;
+   padding-bottom: 46px;
    overflow: hidden;
 }
 
@@ -254,7 +264,7 @@ ul#nav li.current a { color: #F06000; }
    font-size: 20px;
 }
 
-#about .SkillsContainer{
+#skills .SkillsContainer{
    text-align: center;
    display: flex;
    flex-flow: wrap;
@@ -264,14 +274,14 @@ ul#nav li.current a { color: #F06000; }
    padding: 24px;
 }
 
-#about .skill{
+#skills .skill{
   transition: transform .2s; /* Animation */
   max-width: 120px;
   margin: 0 auto;
   padding: 10px 20px;
 }
 
-#about .skill:hover{
+#skills .skill:hover{
    cursor: pointer;
    transform: scale(1.5);
 }
@@ -465,6 +475,7 @@ ul#nav li.current a { color: #F06000; }
 
 .columns .portfolio-item{
    width:45%;
+   min-height: 620px;
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -570,24 +581,33 @@ ul#nav li.current a { color: #F06000; }
 /* popup modal */
 .popup-modal {
 	max-width: 550px;
+    min-height: 620px;
+    border-radius: 0.5rem;
 	background: #fff;
+    border: #000000;
+    border-style: solid;
 	position: relative;
 	margin: 0 auto;
 }
+/* .popup-img {
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+} */
 .popup-modal .description-box { padding: 12px 36px 18px 36px; }
 .popup-modal .description-box h4 {
    font: 15px/24px 'opensans-bold', sans-serif;
 	margin-bottom: 12px;
+    text-decoration: underline;
    color: #111;
 }
 .popup-modal .description-box p {
 	font: 14px/24px 'opensans-regular', sans-serif;
-   color: #A1A1A1;
+   color: black;
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
    font: 11px/21px 'opensans-light', sans-serif;
-   color: #A1A1A1;
+   color: #000000;
    text-transform: uppercase;
    letter-spacing: 2px;
    display: block;
@@ -690,162 +710,12 @@ call-to-action .button {
 	color: #D8D8D8;
 }
 
-/* ------------------------------------------------------------------
-/* g. Testimonials
-/* ------------------------------------------------------------------ */
-
-#testimonials {
-   background: rgba(0, 0, 0, 0.6) url(../images/testimonials-bg.jpg) no-repeat center center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   background-attachment: fixed;
-
-   position: relative;
-   min-height: 200px;
-   width: 100%;
-   overflow: hidden;
-}
-#testimonials .text-container {
-   padding-top: 96px;
-   padding-bottom: 66px;
-}
-#testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #fff;
-}
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
-   font-family: 'FontAwesome';
-   content: "\f10d";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #fff;
-}
-
-/*	Blockquotes */
-#testimonials blockquote {
-   margin: 0 0px 30px 0px;
-   padding-left: 0;
-   position: relative;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-}
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
-   font-family: 'librebaskerville-regular', serif;
-   padding: 0;
-   font-size: 24px;
-   line-height: 48px;
-   color: #fff
-}
-#testimonials blockquote cite {
-   display: block;
-   font-size: 12px;
-   font-style: normal;
-   line-height: 18px;
-   color: #fff;
-}
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
-
-/* Flex Slider
-/* ------------------------------------------------------------------ */
-
-/* Reset */
-.flexslider a:active,
-.flexslider a:focus  { outline: none; }
-.slides,
-.flex-control-nav,
-.flex-direction-nav { margin: 0; padding: 0; list-style: none; }
-.slides li { margin: 0; padding: 0;}
-
-/* Necessary Styles */
-.flexslider {
-   position: relative;
-   zoom: 1;
-   margin: 0;
-   padding: 0;
-}
-.flexslider .slides { zoom: 1; }
-.flexslider .slides > li { position: relative; }
-
-/* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
-/* Suggested container for slide animation setups. Can replace this with your own */
-.flex-container { zoom: 1; position: relative; }
-
-/* Clearfix for .slides */
-.slides:before,
-.slides:after {
-   content: " ";
-   display: table;
-}
-.slides:after {
-   clear: both;
-}
-
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
-.no-js .slides > li:first-child { display: block; }
-
-/* Slider Styles */
-.slides { zoom: 1; }
-.slides > li {
-   /*margin-right: 5px; */
-   overflow: hidden;
-}
-
-/* Control Nav */
-.flex-control-nav {
-    width: 100%;
-    position: absolute;
-    bottom: -20px;
-    text-align: left;
-}
-.flex-control-nav li {
-    margin: 0 6px;
-    display: inline-block;
-    zoom: 1;
-    *display: inline;
-}
-.flex-control-paging li a {
-    width: 12px;
-    height: 12px;
-    display: block;
-    background: #ddd;
-    background: rgba(255, 255, 255, .3);
-    cursor: pointer;
-    text-indent: -9999px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -o-border-radius: 20px;
-    border-radius: 20px;
-    box-shadow: inset 0 0 3px rgba(255, 255, 255, .3);
-}
-.flex-control-paging li a:hover {
-    background: #CCC;
-    background: rgba(255, 255, 255, .7);
-}
-.flex-control-paging li a.flex-active {
-    background: #fff;
-    background: rgba(255, 255, 255, .9);
-    cursor: default;
-}
-
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
 
 #contact {
    background: linear-gradient(180deg, #1e1e1e 0%, #2d2d2d 100%);
-   padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
 }
@@ -899,8 +769,13 @@ call-to-action .button {
 #contact .header-col { padding-top: 6px; }
 
 .contact-header {
-    color:white;
-    margin-bottom: 20px;
+    position: relative;
+    font: 15px / 24px 'opensans-semibold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 48px;
+    color: #fff;
 }
 
 

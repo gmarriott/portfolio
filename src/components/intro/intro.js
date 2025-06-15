@@ -21,33 +21,36 @@ class Skills extends Component {
         return (
 
             <section id="skills">
-                <div className="row skills-block">
-                    <div className="twelve columns main-col">
-                    <h3 className="profile-title">My Skills</h3>
-                        <div className="SkillsContainer">
-                            <img className="skill" src={reactLogo} alt="react-logo" />
-                            <img className="skill" src={javascriptLogo} alt="javascript-logo" />
-                            <img className="skill" src={mongoLogo} alt="mongo-logo" />
-                            <img className="skill" src={mysqlLogo} alt="mysql-logo" />
-                            <img className="skill" src={phpLogo} alt="php-logo" />
-                            <img className="skill" src={nodeLogo} alt="node-logo" />
-                            <img className="skill" src={html5Logo} alt="html5-logo" />
-                            <img className="skill" src={nextLogo} alt="next-logo" />
-                            <img className="skill" src={css3Logo} alt="css-logo" />
-                            <img className="skill" src={apacheLogo} alt="apache-logo" />
-                            <img className="skill" src={csharpLogo} alt="csharp-logo" />
-                            <img className="skill" src={wordpressLogo} alt="wordpress-logo" />
-                            <img className="skill" src={sassLogo} alt="sass-logo" />
-                            <img className="skill" src={sourceTreeLogo} alt="sourcetree-logo" />
-                        </div>
-
-                        <div className="resume-button">
-                            <p style={{ color: "white" }}>
-                                <a href={georgeCV} target="_blank" rel="noreferrer" className="button"><i className="fa fa-download" />Download CV</a>
-                            </p>
-                        </div>
-                    </div>
+            <div className="row skills-block">
+                <div className="twelve columns main-col">
+                <h3 className="profile-title">My Skills</h3>
+                <div className="SkillsContainer">
+                    <img className="skill" src={reactLogo} alt="react-logo" />
+                    <img className="skill" src={javascriptLogo} alt="javascript-logo" />
+                    <img className="skill" src={mongoLogo} alt="mongo-logo" />
+                    <img className="skill" src={mysqlLogo} alt="mysql-logo" />
+                    <img className="skill" src={phpLogo} alt="php-logo" />
+                    <img className="skill" src={nodeLogo} alt="node-logo" />
+                    <img className="skill" src={html5Logo} alt="html5-logo" />
+                    <img className="skill" src={nextLogo} alt="next-logo" />
+                    <img className="skill" src={css3Logo} alt="css-logo" />
+                    <img className="skill" src={apacheLogo} alt="apache-logo" />
+                    <img className="skill" src={csharpLogo} alt="csharp-logo" />
+                    <img className="skill" src={wordpressLogo} alt="wordpress-logo" />
+                    <img className="skill" src={sassLogo} alt="sass-logo" />
+                    <img className="skill" src={sourceTreeLogo} alt="sourcetree-logo" />
                 </div>
+
+                <div className="resume-button">
+                    <p style={{ color: "white" }}>
+                    <a href={georgeCV} target="_blank" rel="noreferrer" className="button" >
+                        <i className="fa fa-download" style={{ marginRight: "8px" }} />
+                        Download CV
+                    </a>
+                    </p>
+                </div>
+                </div>
+            </div>
             </section>
         );
     }

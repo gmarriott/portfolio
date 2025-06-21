@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+// @ts-ignore
 import { createRoot } from 'react-dom/client';
 
 import "./styles.css";

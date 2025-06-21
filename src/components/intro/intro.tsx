@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import reactLogo from "../../images/react-original-wordmark.svg"
-import javascriptLogo from "../../images/javascript-original.svg"
+import typescriptLogo from "../../images/typescript.svg"
 import mongoLogo from "../../images/mongodb-original-wordmark.svg"
 import mysqlLogo from "../../images/mysql-original-wordmark.svg"
 import phpLogo from "../../images/php-original.svg"
@@ -13,9 +13,10 @@ import csharpLogo from "../../images/csharp-original.svg"
 import wordpressLogo from "../../images/wordpress-original.svg"
 import sassLogo from "../../images/sass-original.svg"
 import sourceTreeLogo from "../../images/sourcetree-original-wordmark.svg"
+// @ts-ignore
 import georgeCV from "../../images/George-CV.pdf"
 
-class Skills extends Component {
+export default class Skills extends Component {
 
     render() {
         return (
@@ -26,7 +27,7 @@ class Skills extends Component {
                 <h3 className="profile-title">My Skills</h3>
                 <div className="SkillsContainer">
                     <img className="skill" src={reactLogo} alt="react-logo" />
-                    <img className="skill" src={javascriptLogo} alt="javascript-logo" />
+                    <img className="skill" src={typescriptLogo} alt="typescript-logo" />
                     <img className="skill" src={mongoLogo} alt="mongo-logo" />
                     <img className="skill" src={mysqlLogo} alt="mysql-logo" />
                     <img className="skill" src={phpLogo} alt="php-logo" />
@@ -43,7 +44,7 @@ class Skills extends Component {
 
                 <div className="resume-button">
                     <p style={{ color: "white" }}>
-                    <a href={georgeCV} target="_blank" rel="noreferrer" className="button" >
+                    <a href={georgeCV} target="_blank" rel="noreferrer" className="button">
                         <i className="fa fa-download" style={{ marginRight: "8px" }} />
                         Download CV
                     </a>
@@ -55,5 +56,3 @@ class Skills extends Component {
         );
     }
 }
-
-export default Skills;

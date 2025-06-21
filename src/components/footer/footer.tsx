@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 
-
 export default class Footer extends Component {
   render() {
     let year = new Date().getFullYear();
     return (
-      <React.Fragment>
+      <>
       <footer>
         <div className="row">
           <div className="twelve columns">
@@ -21,7 +20,7 @@ export default class Footer extends Component {
           <div id="go-top"><a title="Back to Top" href="#about"><i className="icon-up-open" /></a></div>
         </div>
       </footer> {/* Footer End*/}
-      </React.Fragment>
+      </>
     );
   }
 }

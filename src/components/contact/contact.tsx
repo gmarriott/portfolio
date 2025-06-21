@@ -2,14 +2,10 @@ import React, { Component } from 'react';
 import { MdMailOutline } from "react-icons/md";
 
 export default class Contact extends Component {
-
     render() {
         return (
             <>
-
                 <section id="contact">
-
-
                     <div className="row">
                         <h5 className="contact-header">Contact Me</h5>
                         <div className="twelve columns">
@@ -22,7 +18,7 @@ export default class Contact extends Component {
                                     </div>
                                     <div>
                                         <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                                        <input type="text" defaultValue="" size={35} id="contactEmail" name="contactEmail" />
+                                        <input type="email" defaultValue="" size={35} id="contactEmail" name="contactEmail" />
                                     </div>
                                     <div>
                                         <label htmlFor="contactSubject">Subject</label>
@@ -41,7 +37,7 @@ export default class Contact extends Component {
                                 </fieldset>
                             </form> {/* Form End */}
                             {/* contact-warning */}
-                            <div id="message-warning"> Error boy</div>
+                            <div id="message-warning"> Error submitting, please try again later</div>
                             {/* contact-success */}
                             <div id="message-success">
                                 <i className="fa fa-check" />Your message was sent, thank you!<br />

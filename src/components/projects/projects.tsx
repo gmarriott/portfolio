@@ -3,8 +3,23 @@ import TutorfulLandingPage from "../../images/tutorful-landing-page.png";
 import SpaceXViewer from "../../images/spacex-viewer.png";
 import TruckRun from "../../images/truck-run.png";
 import JobsVR from "../../images/dev-demand-vr.png";
+import MovieSearchApp from "../../images/movie-search-app.png";
 
 const projects = [
+     {
+        title: "Movie Search App",
+        link: "https://gmarriott.github.io/movie-search/movies/1",
+        linkText: "Movie Search App",
+        description: (
+            <>
+                I enhanced my understanding of API usage by building a movie search app that fetches real-time data from The Movie Database (TMDb) API. Through implementing search functionality, dynamic routing, and data rendering, I gained hands-on experience with RESTful API integration in a front-end application. Check out the experience at: <a href="https://gmarriott.github.io/movie-search/movies/1" target="_blank" rel="noopener noreferrer">Movie Search App</a>
+            </>
+        ),
+        shortDescription:"I enhanced my understanding of API usage by building a movie search app that fetches real-time data from The Movie Database (TMDb) API.",
+        category: "API/Frontend Development",
+        image: MovieSearchApp,
+        alt: "movie-search-app-img"
+    },
     {
         title: "Tutorful Landing Experience",
         link: "https://tutorful.co.uk/search/maths",

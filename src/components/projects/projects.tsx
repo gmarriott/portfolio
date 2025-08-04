@@ -8,7 +8,7 @@ import MovieSearchApp from "../../images/movie-search-app.png";
 const projects = [
      {
         title: "Movie Search App",
-        link: "https://gmarriott.github.io/movie-search/movies/1",
+        link: "https://gmarriott.github.io/movie-search/",
         linkText: "Movie Search App",
         description: (
             <>

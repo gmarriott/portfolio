@@ -12,7 +12,7 @@ const projects = [
         linkText: "Movie Search App",
         description: (
             <>
-                I enhanced my understanding of API usage by building a movie search app that fetches real-time data from The Movie Database (TMDb) API. Through implementing search functionality, dynamic routing, and data rendering, I gained hands-on experience with RESTful API integration in a front-end application. Check out the experience at: <a href="https://gmarriott.github.io/movie-search/movies/1" target="_blank" rel="noopener noreferrer">Movie Search App</a>
+                I enhanced my understanding of API usage by building a movie search app that fetches real-time data from The Movie Database (TMDb) API. Through implementing search functionality, dynamic routing, and data rendering, I gained hands-on experience with RESTful API integration in a front-end application. Check out the experience at: <a href="https://gmarriott.github.io/movie-search/" target="_blank" rel="noopener noreferrer">Movie Search App</a>
             </>
         ),
         shortDescription:"I enhanced my understanding of API usage by building a movie search app that fetches real-time data from The Movie Database (TMDb) API.",

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3244d8e7.css",
-    "main.js": "/portfolio/static/js/main.094a9a7a.js",
+    "main.js": "/portfolio/static/js/main.93330aca.js",
     "static/media/spacex-viewer.png": "/portfolio/static/media/spacex-viewer.aa8ae8cd65790428dd2f.png",
     "static/media/dev-demand-vr.png": "/portfolio/static/media/dev-demand-vr.6c891cd0422040595390.png",
     "static/media/tutorful-landing-page.png": "/portfolio/static/media/tutorful-landing-page.4b179c2f8e6c83699b15.png",
@@ -10,7 +10,7 @@
     "static/media/apache-original-wordmark.svg": "/portfolio/static/media/apache-original-wordmark.8628933cc5175b06c1800dedf0fea2d5.svg",
     "static/media/george-marriott.jpg": "/portfolio/static/media/george-marriott.2f83cd2571d41bebb1dd.jpg",
     "static/media/testimonials-bg.jpg": "/portfolio/static/media/testimonials-bg.93444758762b61c668ff.jpg",
-    "static/media/George-CV.pdf": "/portfolio/static/media/George-CV.078d836839dfdc7842d7.pdf",
+    "static/media/George-CV.pdf": "/portfolio/static/media/George-CV.6a4e29aa4edca6127fc4.pdf",
     "static/media/php-original.svg": "/portfolio/static/media/php-original.6dd1c35d14b8238b2caff6a516afb1a1.svg",
     "static/media/mongodb-original-wordmark.svg": "/portfolio/static/media/mongodb-original-wordmark.c89dd81131d7946bfddd893c49074e1f.svg",
     "static/media/wordpress-original.svg": "/portfolio/static/media/wordpress-original.f89b9a97962f95da5e5e30de43555bfc.svg",
@@ -26,10 +26,10 @@
     "static/media/typescript.svg": "/portfolio/static/media/typescript.a6305a733dd55243980aec55f96f70c5.svg",
     "static/media/csharp-original.svg": "/portfolio/static/media/csharp-original.7ce1ad6dbeb45b1ea8ea000969430fc7.svg",
     "main.3244d8e7.css.map": "/portfolio/static/css/main.3244d8e7.css.map",
-    "main.094a9a7a.js.map": "/portfolio/static/js/main.094a9a7a.js.map"
+    "main.93330aca.js.map": "/portfolio/static/js/main.93330aca.js.map"
   },
   "entrypoints": [
     "static/css/main.3244d8e7.css",
-    "static/js/main.094a9a7a.js"
+    "static/js/main.93330aca.js"
   ]
 }
